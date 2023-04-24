@@ -21,7 +21,7 @@ import RectangleThree from "./../../public/RectangleThree.png";
 
 export function BottomBar() {
   const [imagem, setImagem] = useState(img1);
-  const [music, setMusic] = useState(stop);
+  const [music, setMusic] = useState(play);
 
   function ToggleImage() {
     imagem === img1 ? setImagem(img2) : setImagem(img1);
