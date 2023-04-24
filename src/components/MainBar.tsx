@@ -99,7 +99,7 @@ export function MainBar() {
       </div>
       </div>
       <h1 className="font-bold text-3xl mt-12">Good afternoon</h1>
-      <div className="grid  grid-cols-3 gap-4 mt-4">
+      <div className="grid  grid-cols-3 gap-4 mt-4 max-md:grid-cols-2">
       {dataTwo.slice(0, numberList).map(({ id, image, title,  }) => {
           return (
             <a
@@ -117,19 +117,19 @@ export function MainBar() {
 
         <h1 className="font-bold text-3xl mt-4">Made For Schell Fernandes</h1>
       </div>
-      <div className="grid grid-cols-6 gap-4 mt-4">
+      <div className="grid grid-cols-6 gap-4 max-md:flex max-md:overflow-x-scroll md:max-md:w-full mt-4">
       {data.slice(0, numberList).map(({ id, image, title, description }) => {
           return (
             <a
             href=""
-            className="bg-white/5 p-2  rounded hover:bg-white/10 relative flex flex-col group gap-2 hover:scale-105 transition"
+            className="bg-white/5 p-2  rounded hover:bg-white/10 relative shrink-0 flex flex-col group gap-2 max-md:flex max-md:items-center hover:scale-105 transition"
             >
             <button className="w-12 h-12 bg-green-500 absolute group-hover:visible rounded-full flex items-center justify-center right-3 top-36 invisible">
               <Image src={arrowright} alt="play" />
             </button>
             <Image src={image} alt="album" />
             <strong>{title}</strong>
-            <h4 className="text-sm text-zinc-500">
+            <h4 className="text-sm text-zinc-500 max-w-[200px]">
               {description}
             </h4>
             </a>

@@ -68,7 +68,7 @@ export function BottomBar() {
           <span className="text-xs text-zinc-500">1:46</span>
         </div>
       </div>
-      <div className="flex gap-2">
+      <div className="flex gap-2 max-md:hidden">
         <button>
           <Image height={24} width={24} src={mic} alt="" />
         </button>
