@@ -1,9 +1,12 @@
+import { useState } from "react";
 import Image from "next/image";
 
 import img2 from "./../../public/heart.svg";
 import img1 from "./../../public/nohearth.png";
 
-import play from "./../../public/play.svg";
+import stop from "./../../public/pause.png";
+import play from "./../../public/play.png";
+
 import prox from "./../../public/prox.svg";
 import back from "./../../public/back.svg";
 import randoom from "./../../public/randoom.svg";
@@ -15,13 +18,16 @@ import vol from "./../../public/vol.png";
 import pc from "./../../public/pc.png";
 import queue from "./../../public/queue.png";
 import RectangleThree from "./../../public/RectangleThree.png";
-import { useState } from "react";
 
 export function BottomBar() {
   const [imagem, setImagem] = useState(img1);
+  const [music, setMusic] = useState(stop);
 
   function ToggleImage() {
     imagem === img1 ? setImagem(img2) : setImagem(img1);
+  }
+  function ToggleMusic() {
+    music === stop ? setMusic(play) : setMusic(stop);
   }
 
   return (
@@ -44,8 +50,8 @@ export function BottomBar() {
           <button>
             <Image src={prox} alt="" />
           </button>
-          <button>
-            <Image src={play} alt="" />
+          <button onClick={() => ToggleMusic()}>
+            <Image className="w-14 h-14" src={music} alt="" />
           </button>
           <button>
             <Image src={back} alt="" />

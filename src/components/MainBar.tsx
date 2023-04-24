@@ -21,7 +21,7 @@ export function MainBar() {
       <div className="grid  grid-cols-3 gap-4 mt-4">
         <a
           href=""
-          className="bg-white/10 hover:bg-white/20 transition-all group rounded flex items-center gap-4"
+          className="bg-white/10 hover:bg-white/20 transition-all group rounded flex items-center gap-4 hover:scale-105"
         >
           <Image src={music} alt="image playlist" />
           <strong>Neffex Playlist</strong>
@@ -31,7 +31,7 @@ export function MainBar() {
         </a>
         <a
           href=""
-          className="bg-white/10 hover:bg-white/20 transition-all group rounded flex items-center gap-4"
+          className="bg-white/10 hover:bg-white/20 transition-all group rounded flex items-center gap-4 hover:scale-105"
         >
           <Image src={music} alt="image playlist" />
           <strong>Neffex Playlist</strong>
@@ -41,7 +41,7 @@ export function MainBar() {
         </a>
         <a
           href=""
-          className="bg-white/10 hover:bg-white/20 transition-all group rounded flex items-center gap-4"
+          className="bg-white/10 hover:bg-white/20 transition-all group rounded flex items-center gap-4 hover:scale-105"
         >
           <Image src={music} alt="image playlist" />
           <strong>Neffex Playlist</strong>
@@ -51,7 +51,7 @@ export function MainBar() {
         </a>
         <a
           href=""
-          className="bg-white/10 hover:bg-white/20 transition-all group rounded flex items-center gap-4"
+          className="bg-white/10 hover:bg-white/20 transition-all group rounded flex items-center gap-4 hover:scale-105"
         >
           <Image src={music} alt="image playlist" />
           <strong>Neffex Playlist</strong>
@@ -61,7 +61,7 @@ export function MainBar() {
         </a>
         <a
           href=""
-          className="bg-white/10 hover:bg-white/20 transition-all group rounded flex items-center gap-4"
+          className="bg-white/10 hover:bg-white/20 transition-all group rounded flex items-center gap-4 hover:scale-105"
         >
           <Image src={music} alt="image playlist" />
           <strong>Neffex Playlist</strong>
@@ -71,7 +71,7 @@ export function MainBar() {
         </a>
         <a
           href=""
-          className="bg-white/10 hover:bg-white/20 transition-all group rounded flex items-center gap-4"
+          className="bg-white/10 hover:bg-white/20 transition-all group rounded flex items-center gap-4 hover:scale-105"
         >
           <Image src={music} alt="image playlist" />
           <strong>Neffex Playlist</strong>
@@ -84,7 +84,7 @@ export function MainBar() {
       <div className="grid grid-cols-6 gap-4 mt-4">
         <a
           href=""
-          className="bg-white/5 p-2 rounded hover:bg-white/10 relative flex flex-col group gap-2"
+          className="bg-white/5 p-2 rounded hover:bg-white/10 relative flex flex-col group gap-2 hover:scale-105 transition"
         >
           <button className="w-12 h-12 bg-green-500 absolute group-hover:visible rounded-full flex items-center justify-center right-3 top-36 invisible">
             <Image src={arrowright} alt="play" />
@@ -97,7 +97,7 @@ export function MainBar() {
         </a>
         <a
           href=""
-          className="bg-white/5 p-2 rounded hover:bg-white/10 relative flex flex-col group gap-2"
+          className="bg-white/5 p-2 rounded hover:bg-white/10 relative flex flex-col group gap-2 hover:scale-105 transition"
         >
           <button className="w-12 h-12 bg-green-500 absolute group-hover:visible rounded-full flex items-center justify-center right-3 top-36 invisible">
             <Image src={arrowright} alt="play" />
@@ -110,7 +110,7 @@ export function MainBar() {
         </a>
         <a
           href=""
-          className="bg-white/5 p-2 rounded hover:bg-white/10 relative flex flex-col group gap-2"
+          className="bg-white/5 p-2 rounded hover:bg-white/10 relative flex flex-col group gap-2 hover:scale-105 transition"
         >
           <button className="w-12 h-12 bg-green-500 absolute group-hover:visible rounded-full flex items-center justify-center right-3 top-36 invisible">
             <Image src={arrowright} alt="play" />
@@ -123,7 +123,7 @@ export function MainBar() {
         </a>
         <a
           href=""
-          className="bg-white/5 p-2 rounded hover:bg-white/10 relative flex flex-col group gap-2"
+          className="bg-white/5 p-2 rounded hover:bg-white/10 relative flex flex-col group gap-2 hover:scale-105 transition"
         >
           <button className="w-12 h-12 bg-green-500 absolute group-hover:visible rounded-full flex items-center justify-center right-3 top-36 invisible">
             <Image src={arrowright} alt="play" />
@@ -136,7 +136,7 @@ export function MainBar() {
         </a>
         <a
           href=""
-          className="bg-white/5 p-2 rounded hover:bg-white/10 relative flex flex-col group gap-2"
+          className="bg-white/5 p-2 rounded hover:bg-white/10 relative flex flex-col group gap-2 hover:scale-105 transition"
         >
           <button className="w-12 h-12 bg-green-500 absolute group-hover:visible rounded-full flex items-center justify-center right-3 top-36 invisible">
             <Image src={arrowright} alt="play" />
@@ -149,7 +149,7 @@ export function MainBar() {
         </a>
         <a
           href=""
-          className="bg-white/5 p-2 rounded hover:bg-white/10 relative flex flex-col group gap-2"
+          className="bg-white/5 p-2 rounded hover:bg-white/10 relative flex flex-col group gap-2 hover:scale-105 transition"
         >
           <button className="w-12 h-12 bg-green-500 absolute group-hover:visible rounded-full flex items-center justify-center right-3 top-36 invisible">
             <Image src={arrowright} alt="play" />
