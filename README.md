@@ -1,29 +1,28 @@
-<p>Projeto clone do spotify criado com nextJS e TailwindCSS.</p>
+<h1 align="center"> Clone do Spotify </h1>
 
-<table>
-  <thead>
-    <tr>
-      <th>#</th>
-      <th>name</th>
-      <th>date</th>
-      <th>view</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>15</td>
-      <td>Página Spotify</td>
-      <td>24/04/23</td>
-      <td><a href="#">🔗</a></td>
-    </tr>
-  </tbody>
-</table>
+<p align="center">
+Este projeto foi um estudo sobre NextJS com TailwindCSS. <br/>
+</p>
 
-<p>O Desafio consiste em reproduzir o layout do spotify com Next e Tailwind com auxilio do tutorial da RocketSeat.</p>
+<p align="center">
+O Desafio consiste em reproduzir o layout de do spotify seguindo a explicação da rocketseat. <br/>
+</p>
 
+<p align="center">
+  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#memo-licença">Licença</a>
+</p>
 
-<div align="center">
-<h1>Resultado</h1>
-<img src="https://user-images.githubusercontent.com/104238801/234003429-d7e2b884-f1fe-48aa-9d3d-17290742c0f5.png" alt="page" width="700px" />
-</div>
+<br>
 
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/104238801/234003429-d7e2b884-f1fe-48aa-9d3d-17290742c0f5.png" width="100%">
+</p>
+
+## 🚀 Tecnologias
+
+Esse projeto foi desenvolvido com as seguintes tecnologias:
+
+- NextJS e TailwindCSS
+- Git e Github
